@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Portal</title>
+<style>
+body{font-family:Arial;background:linear-gradient(to right,#2c3e50,#3498db);color:#fff;text-align:center;padding:80px}
+.card{background:#fff;color:#000;padding:20px;margin:20px auto;max-width:400px;border-radius:10px}
+a button{width:100%;padding:10px;margin-top:10px}
+</style>
+</head>
+<body>
+
+<h1>Welcome Student Portal</h1>
+
+<div class="card">
+<h3>Login</h3>
+<form action="student_login.php" method="POST">
+<input name="username" placeholder="Username" required style="width:100%;padding:10px">
+<input name="password" type="password" placeholder="Password" required style="width:100%;padding:10px">
+<button>Login</button>
+</form>
+</div>
+
+<div class="card">
+<a href="register.html"><button>Create Account</button></a>
+<a href="rregister.html"><button>Full Registration</button></a>
+</div>
+
+</body>
+</html>
